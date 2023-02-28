@@ -14,8 +14,6 @@ import java.util.List;
 
 public class TestVod2 {
     public static void main(String[] args) throws ClientException {
-//        String accessKeyId="LTAI5tKgREuFec8pvqUeN8f6";
-//        String accessKeySecret="BsyJib5bcesj5LIrAvbiSM9F5AkKv5";
 //        String title="test";
 //        String fileName="G:\\6 - What If I Want to Move Faster.mp4";
 //        UploadVideoRequest request = new UploadVideoRequest(accessKeyId, accessKeySecret, title, fileName);
@@ -40,7 +38,7 @@ public class TestVod2 {
 
     public static void getPlayAuth() throws ClientException {
         //根据视频id获取视频播放凭证
-        DefaultAcsClient client = InitObject.initVodClient("LTAI5tCWKpNnnT5jAsZXXuNs","2cRqEMxGcwYDzRzDi4wd8Xg9bC54J2");
+        DefaultAcsClient client = InitObject.initVodClient("","");
         //创建获取视频凭证request和response
         GetVideoPlayAuthRequest request = new GetVideoPlayAuthRequest();
         GetVideoPlayAuthResponse response = new GetVideoPlayAuthResponse();
@@ -53,7 +51,7 @@ public class TestVod2 {
     }
     public static void getPlayUrl() throws ClientException {
         //根据视频ip获取视频播放地址
-        DefaultAcsClient client = InitObject.initVodClient("LTAI5tCWKpNnnT5jAsZXXuNs","2cRqEMxGcwYDzRzDi4wd8Xg9bC54J2");
+        DefaultAcsClient client = InitObject.initVodClient("","");
 
         //创建获取视频地址的request和response
         GetPlayInfoRequest request  = new GetPlayInfoRequest();
