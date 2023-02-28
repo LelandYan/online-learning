@@ -23,7 +23,7 @@ public class MsmServiceImpl implements MsmService {
         //参数1：地域节点
         //参数2：AccessKey ID
         //参数3：AccessKey Secret
-        DefaultProfile profile = DefaultProfile.getProfile("cn-shanghai", "LTAI5tCWKpNnnT5jAsZXXuNs", "2cRqEMxGcwYDzRzDi4wd8Xg9bC54J2");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-shanghai", "", "");
         DefaultAcsClient client = new DefaultAcsClient(profile);
 
         //设置相关固定参数
