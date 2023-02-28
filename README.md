@@ -28,22 +28,12 @@
    - service-trade:订单微服务，功能包括订单的增删查，整合了微信端的支付功能（但是还未测试，使用模拟接口进行调试）。
    - service-statistics:统计模块，前端整合Echarts来实现简单的一个折线图统计。
    - service-acl:权限管理模块，整合Spring secruity实现用户管理，角色管理，以及菜单管理。用户根据角色来获取对应的菜单。
- - guli-admin:
+ - vue-admin:
    - 前端运营管理模块，基础框架由 [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)搭建
- - guli-site；
+ - vue-front-1010；
    - 前台用户系统，使用 [nuxt.js](https://www.nuxtjs.cn/)快速搭建
 
-# 三、项目结构
-
-<table>
-    <tr>
-        <td><img src="imgs/3.png"/></td>
-    </tr>  
-    <tr>
-        <td><img src="imgs/4.png"/></td>
-    </tr> 
-</table>
-# 四、环境部署
+# 三、环境部署
 
 ### 准备工作
 
